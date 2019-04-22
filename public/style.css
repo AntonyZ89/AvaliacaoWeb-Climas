@@ -1,0 +1,121 @@
+header {
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin-bottom: 10px;
+}
+
+body {
+    padding: 10px;
+    background-color: #2A2A2A;
+}
+
+.container-fluid {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-select {
+    width: auto;
+}
+
+.grupo-select {
+    margin: 0 5px 5px 0;
+    display: inline-block;
+}
+
+.grupo-select select {
+    min-width: 100px;
+}
+
+.grupo-select span {
+    /* border: 2px solid #9fd0fb; */
+    font-weight: bold;
+    display: block;
+    padding: 7px 0; 
+    border-radius: 5px;
+    background-color: #9fd0fb;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+form {
+    margin: 0;
+}
+
+.climas {
+    padding: 10px 30px !important;
+    justify-content: center;
+}
+
+.umidade i {
+    color: #027ad2;
+}
+
+.clima {
+    text-align: left !important;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 60px;
+    background-color: #d6ebff;
+    min-height: 100px;
+    margin: 0 10px 10px 0;
+    transition: all 0.2s;
+    overflow: hidden;
+    background-image: url(nuvem.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50% 50%;
+}
+
+.clima .cidade {
+    font-weight: bold;
+}
+
+.clima .temperatura {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clima .tempo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.clima .pais {
+    vertical-align: bottom;
+}
+
+.clima .remover {
+    opacity: 0;
+    position: absolute;
+    right: -36px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 11px;
+    cursor: pointer;
+    color: white;
+    background-color: #FF6969;
+    transition: opacity 0.2s, background-color 1s, right 0.3s, padding 0.2s,  font-size 0.2s;
+    
+}
+
+.clima .remover:hover {
+    font-size: 22px;
+    padding: 7px 9px;
+    background-color: red;
+}
+
+.clima:hover .remover {
+    right: 0px;
+    opacity: 1;
+}
