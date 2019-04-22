@@ -116,7 +116,7 @@ class Container extends Component {
 	}
 
 	render() {
-		let json = require('./city.list.json');
+		let json = require('./city.list.min.json');
 
 		let paises = new Set();
 		let cidades = new Set();
