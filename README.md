@@ -1,5 +1,11 @@
 ![Exemplo](https://i.imgur.com/zwNqcMy.png)
 
+Desenvolvido com <b>ReactJS</b>
+
+<b>Autor:</b> Antony Gabriel Pereira
+
+--------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
